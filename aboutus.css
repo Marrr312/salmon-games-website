@@ -1,0 +1,93 @@
+.aboutus-page {
+    background-image: url('bg.jpg');
+
+}
+.text {
+    
+    font-family: "Montserrat Alternates", sans-serif;
+   font-style:normal;
+   font-weight: 900;
+  background: #ffffff;
+  text-decoration-color: #404040;
+    font-size: 26px;
+    padding: auto 15% auto 20%;
+    border: #404040;
+    justify-content: center;
+    text-align: center;
+
+}
+  .logo-aboutus {
+    margin-left: 75%;
+     padding-top: 250px;
+    width: 200px;
+    display: flex;
+   
+    
+    
+}
+    
+.team_mini_button {
+  position: absolute;
+ 
+     margin-bottom: 300px;
+     margin-right: 70%;
+     padding-bottom: 100px;
+
+}
+.games_mini_button {
+    position: absolute;
+     margin-left: 65%;
+    margin-bottom: 300px;
+
+  
+}
+@media screen  and (max-width:768px){
+    
+    .logo-aboutus  {
+    margin-left: 65%;
+     padding-top: 200px;
+    width: 200px;
+    display:flex;
+    
+    
+}
+        .games_mini_button img {
+        width: 200px;
+    position: absolute;
+    margin-top: 0;
+     margin-bottom: 330px;
+     margin-left: 60%;
+     padding-bottom: 200px;
+     
+    }
+    .team_mini_button img{
+    width: 200px;
+    position: absolute;
+    margin-right: 70%;
+    margin-bottom: 300px;
+
+  
+}
+    .aboutus-page{
+        font-size: 30px;
+    }}
+@media  screen and (max-width: 1115px) {
+     .games_mini_button img {
+        width: 300px;
+    position: absolute;
+    margin-top: 0;
+     margin-bottom: 330px;
+     margin-left: 60%;
+     padding-bottom: 200px;
+     
+    }
+    .team_mini_button img{
+    width: 300px;
+    position: absolute;
+    margin-right: 70%;
+    margin-bottom: 300px;
+
+  
+}
+    
+}
